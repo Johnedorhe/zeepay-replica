@@ -13,7 +13,7 @@ const RootLayout = () => (
   <div className='min-h-screen flex flex-col font-sans'>
     <nav className=''><Nav /></nav>
     <main className='flex-1'><Outlet /></main>
-    <footer className=''> <Footer/> </footer>
+    <footer className='text-gray-500 text-center'> <Footer/> </footer>
   </div>
 )
 
