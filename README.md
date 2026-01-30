@@ -1,16 +1,53 @@
-# React + Vite
+# Zeepay Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React + Vite web application for Zeepay, featuring a clean UI, responsive design, and Tailwind CSS styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Hero section with call-to-action
+- Multi-feature highlights
+- How it works steps
+- Customer reviews
+- FAQ section
+- Footer with resources and support
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+3. **Open your browser:**
+   Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
+
+## Project Structure
+
+- `src/pages/` — Main page components (homepage, blog, contact, etc.)
+- `src/App.jsx` — App entry point
+- `src/index.css` — Global styles (Tailwind CSS)
+- `public/` — Static assets (images, logos)
+
+## Customization
+
+- Update content in `src/pages/homepage.jsx` and other page files as needed.
+- Add or modify styles in `src/index.css`.
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## License
+
+This project is for demonstration and educational purposes.
