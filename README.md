@@ -16,6 +16,7 @@ A modern React + Vite web application for Zeepay, featuring a clean UI, responsi
 - React
 - Vite
 - Tailwind CSS
+- Vanilla CSS
 
 ## Getting Started
 
