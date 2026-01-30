@@ -190,54 +190,54 @@ const Homepage = () => {
         </section>
 
         {/* SIXTH SECTION */}
-      <section className='flex flex-col justify-center items-center gap-3 bg-purple-950 p-12'>
+      <section className='flex flex-col justify-center items-center gap-3 bg-purple-950 p-12 w-full'>
         <div>
-          <img src="/logo.png" alt="logo" />
+          <img src="/logo.svg" alt="logo" />
         </div>
         <h1 className='text-4xl text-white font-bold'><span className='block'>Get Started with</span> <span className='block text-center'>Zeepay Today</span></h1>
-        <p className='text-sm text-white'>Experience seamless, secure transactions at your fingertips. Sign up now and simplify your payments with just a few taps!</p>
+        <p className='text-sm text-white'>Experience seamless, secure transactions at your fingertips. Sign up now <span className='block text-center'>and simplify your payments with just a few taps!</span></p>
         <button className='text-blue-500 bg-white px-4 py-2 rounded-md'>Get started now</button>
       </section>
 
       {/* SEVENTH SECTION */}
-      <section>
-        <article className='flex justify-evenly'>
-          <div>
+      <section className='w-full p-12'>
+        <article className='flex justify-between items-start w-full'>
+          <div className='flex-2'>
             <div className='flex gap-1 mb-2.5'>
-              <img src="/logo.png" alt="logo" width={25} /> Zeepay
+              <img src="/logo.svg" alt="logo" width={25} /> Zeepay
             </div>
-            <p className='text-sm flex-2 text-gray-500'>Find quick solutions and helpful tips for using <span className='block'> Zeepay. We’ve compiled answers to the most</span> <span className='block'> frequently asked questions right here.</span></p>
+            <p className='text-sm text-gray-500'>Find quick solutions and helpful tips for using <span className='block'> Zeepay. We’ve compiled answers to the most</span> <span className='block'> frequently asked questions right here.</span></p>
           </div>
-          <div>
+          <div className='flex-1'>
             <p className='font-semibold mb-2.5'>About</p>
-            <div className='flex flex-col flex-1'>
+            <div className='flex flex-col'>
             <a href="#" className='text-sm text-gray-500'>Our story</a>
             <a href="#" className='text-sm text-gray-500'>Careers</a>
             <a href="#" className='text-sm text-gray-500'>Blog</a>
             <a href="#" className='text-sm text-gray-500'>Contact Us</a>
             </div>
           </div>
-          <div>
+          <div className='flex-1'>
             <p className='font-semibold mb-2.5'>Resources</p>
-            <div className='flex flex-col flex-1'>
+            <div className='flex flex-col'>
             <a href="#" className='text-sm text-gray-500'>Help center</a>
             <a href="#" className='text-sm text-gray-500'>API Documentation</a>
             <a href="#" className='text-sm text-gray-500'>Community</a>
             <a href="#" className='text-sm text-gray-500'>Partner</a>
             </div>
           </div>
-          <div>
+          <div className='flex-1'>
             <p className='font-semibold mb-2.5'>Products</p>
-            <div className='flex flex-col flex-1'>
+            <div className='flex flex-col'>
             <a href="#" className='text-sm text-gray-500'>For Personal</a>
             <a href="#" className='text-sm text-gray-500'>For Business</a>
             <a href="#" className='text-sm text-gray-500'>Personal solutions</a>
             <a href="#" className='text-sm text-gray-500'>Imaginations</a>
             </div>
           </div>
-          <div>
+          <div className='flex-1'>
             <p className='font-semibold mb-2.5'>Support</p>
-            <div className='flex flex-col flex-1'>
+            <div className='flex flex-col'>
             <a href="#" className='text-sm text-gray-500'>Customer support</a>
             <a href="#" className='text-sm text-gray-500'>FAQ</a>
             <a href="#" className='text-sm text-gray-500'>Report a problem</a>
