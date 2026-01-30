@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 
-
 function Nav() {
   return (
     <div className="flex justify-between items-center p-4 px-12">
       <div>
         <Link to="/" className="flex gap-1">
-        <img src="/logo.png" alt="logo" width={25} /> Zeepay
+        <img src="/logo.svg" alt="logo" width={25} /> Zeepay
         </Link>
       </div>
 
