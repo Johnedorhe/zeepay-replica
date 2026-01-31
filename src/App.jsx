@@ -33,10 +33,19 @@ const NotFound = () => (
   </div>
 );
 
+const ErrorFallback = ({ error }) => (
+  <div style={{ padding: '2rem', textAlign: 'center', color: 'red' }}>
+    <h1>Something went wrong</h1>
+    <p>{error?.message || 'An unexpected error occurred.'}</p>
+    <a href="/zeepay-replica/">Go to Home</a>
+  </div>
+);
+
 const router = createBrowserRouter([
   {
     path: '/',
     element: <RootLayout />, 
+    errorElement: <ErrorFallback />, 
     children: [
       { index: true, element: <HomePage /> },
       { path: 'contact', element: <Contact /> },
