@@ -26,10 +26,17 @@ const showNavFooter = !noNavFooterRoutes.includes(location.pathname);
   )
 }
 
+const NotFound = () => (
+  <div style={{ padding: '2rem', textAlign: 'center' }}>
+    <h1>404 - Page Not Found</h1>
+    <p>The page you are looking for does not exist.</p>
+  </div>
+);
+
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <RootLayout />,
+    element: <RootLayout />, 
     children: [
       { index: true, element: <HomePage /> },
       { path: 'contact', element: <Contact /> },
@@ -37,9 +44,12 @@ const router = createBrowserRouter([
       { path: 'pricing', element: <Pricing /> },
       { path: 'login', element: <Login /> },
       { path: 'signup', element: <SignUp /> },
+      { path: '*', element: <NotFound /> },
     ],
   },
-]);
+], {
+  basename: '/zeepay-replica',
+});
 
 function App() {
   return(
