@@ -43,7 +43,7 @@ const Pricing = () => {
         </p>
         <div className='flex flex-col items-center gap-2 mt-6'>
           <p className='font-normal text-[14px] leading-[22px] tracking-[-0.03em] text-center'>
-            Get 50% off yearly plan 🤑
+            Get 50% off yearly plan &#x1F929;
           </p>
           {/* Toggle buttons with sliding background */}
           <div className="relative flex rounded-full bg-slate-100 w-[200px] overflow-hidden">
@@ -142,6 +142,86 @@ const Pricing = () => {
             <img src="/zeepay-replica/Visa-logo.svg" className='opacity-80 [mask-image:linear-gradient(to_right,black,transparent)]' alt="visa" width={40}/>
         </div>
       </article>
+      </section>
+
+      <section className='bg-teal-50 mt-15'>
+        <article className='text-center space-y-3'>
+          <h2 className='font-semibold text-3xl'>Package Comaparison</h2>
+          <p>Streamline Operations, Boost Productivity, and Drive Innovation with Our All-in-One Platform</p>
+        </article>
+
+        <article>
+          {/* Table */}
+          <table className='w-full mt-6 border-collapse'>
+            <thead>
+              <tr className='bg-slate-200'> 
+                <th className='border font-bold border-slate-300 p-4 text-left'>Features included in the plans</th>
+                <th className='border border-slate-300 p-4 text-left'>Starter</th>
+                <th className='border border-slate-300 p-4 text-left'>Pro</th>
+                <th className='border border-slate-300 p-4 text-left'>Enterprise</th>
+                <th className='border border-slate-300 p-4 text-left'>Enterprise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className='border border-slate-300 p-4'>Real-Time Inventory Tracking</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+              </tr>
+              <tr className='bg-slate-50'>
+                <td className='border border-slate-300 p-4'>Automated Purchase Orders</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+              </tr>
+              <tr>
+                <td className='border border-slate-300 p-4'>Mobile Access</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+              </tr>
+              <tr className='bg-slate-50'>
+                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
+                <td className='border border-slate-300 p-4 text-center'>❌</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+              </tr>
+              <tr className='bg-slate-50'>
+                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
+                <td className='border border-slate-300 p-4 text-center'>❌</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+              </tr>
+              <tr className='bg-slate-50'>
+                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
+                <td className='border border-slate-300 p-4 text-center'>❌</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+              </tr>
+              <tr className='bg-slate-50'>
+                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
+                <td className='border border-slate-300 p-4 text-center'>❌</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+              </tr>
+              <tr className='bg-slate-50'>
+                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
+                <td className='border border-slate-300 p-4 text-center'>❌</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
       </section>
     </div>
   )
