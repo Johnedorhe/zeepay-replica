@@ -21,7 +21,9 @@ const showNavFooter = !noNavFooterRoutes.includes(location.pathname);
       <main>
         <Outlet />
       </main>
+      <footer className="text-center">
       {showNavFooter && <Footer />}  
+      </footer>
   </div>
   )
 }

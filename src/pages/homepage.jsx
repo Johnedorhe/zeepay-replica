@@ -19,17 +19,17 @@ const Homepage = () => {
         <p className='text-sm text-gray-800 mt-6'>Trusted by 500+ Companies</p>
 
         <div className='flex gap-6'>
-            <img src="/patreon-logo.svg" className='opacity-80' alt="patreon" width={40} />
-            <img src="/Uber-Logo.svg" className='opacity-80' alt="uber" width={40}/>
-            <img src="/shopify-logo.svg" className='opacity-80' alt="shopify" width={40} />
-            <img src="/Visa-logo.svg" className='opacity-80' alt="visa" width={40}/>
+            <img src="/zeepay-replica/patreon-logo.svg" className='opacity-80' alt="patreon" width={40} />
+            <img src="/zeepay-replica/Uber-Logo.svg" className='opacity-80' alt="uber" width={40}/>
+            <img src="/zeepay-replica/shopify-logo.svg" className='opacity-80' alt="shopify" width={40} />
+            <img src="/zeepay-replica/Visa-logo.svg" className='opacity-80' alt="visa" width={40}/>
         </div>
 
         </div>
 
         {/* picture section */}
         <div className='flex-1 pt-4 relative overflow-hidden'>
-            <img src="/hero.svg" alt="hero" className='mb-0 w-[380px] h-[650px] absolute top-16' />
+            <img src="/zeepay-replica/hero.svg" alt="hero" className='mb-0 w-[380px] h-[650px] absolute top-16' />
         </div>
     </section>
 
@@ -40,7 +40,7 @@ const Homepage = () => {
           <article className='flex gap-3'>
             {/* first box */}
             <div className='flex flex-col items-center justify-center bg-blue-100 flex-3 p-4 rounded-md'>
-              <img src="/second.png" alt="currency" className='mb-0'/>
+              <img src="/zeepay-replica/second.png" alt="currency" className='mb-0'/>
               <h2 className='text-lg font-semibold'>Multi Currency Support</h2>
               <p>Handle all your seamlessly across different currencies with Zeepay. Whether it's for personal or business needs, our app empowers you to manage transactions effectivel, ensuring you stay organized and in control of your financial operations.</p>
             </div>
@@ -75,7 +75,7 @@ const Homepage = () => {
           </div>
             {/* fourth box */}
             <div className='bg-blue-100 flex flex-col gap-2 items-center justify-center flex-3 rounded-lg p-2'>
-              <img src="/third.png" alt="Integration" className='mb-5'/>
+              <img src="/zeepay-replica/third.png" alt="Integration" className='mb-5'/>
               <h3 className='font-semibold'>Effortless Integration</h3>
               <p>Zeepay seamlessly integrates with your existing financial systems and tools. From invoicing to payroll, our platform works in harmony with your business, providing a hassle-free experience that saves you time and effort.</p>
             </div>
@@ -88,19 +88,19 @@ const Homepage = () => {
           <h1>How It Works</h1>
           <article className='flex gap-3'>  
           <div className='rounded flex flex-col gap-2'>
-            <img src="/fourth.svg" alt="fourth-pic" />
+            <img src="/zeepay-replica/fourth.svg" alt="fourth-pic" />
             <p className='text-sm bg-blue-100 p-1 rounded w-fit'>Step 1</p>
             <h3 className='font-semibold'>Easy Sign Up</h3>
             <p className='text-sm text-gray-500'>Create your account in seconds and unlock all the features waiting for you. Start exploring today!</p>
           </div>
           <div className='rounded flex flex-col gap-2'>
-            <img src="/fifth.svg" alt="fifth-pic" />
+            <img src="/zeepay-replica/fifth.svg" alt="fifth-pic" />
             <p className='text-sm bg-blue-100 p-1 rounded w-fit'>Step 2</p>
             <h3 className='font-semibold'>Link Your Bank Account</h3>
             <p className='text-sm text-gray-500'>Connect your bank account in just a few clicks for fast, secure access to all your financial features.</p>
           </div>
           <div className='rounded flex flex-col gap-2'>
-            <img src="/sixth.svg" alt="sixth-pic" />
+            <img src="/zeepay-replica/sixth.svg" alt="sixth-pic" />
             <p className='text-sm bg-blue-100 p-1 rounded w-fit'>Step 3</p>
             <h3 className='font-semibold'>Begin Your Transactions</h3>
             <p className='text-sm text-gray-500'>Seamless, secure transactions at your fingertips. Start now and simplify your financial journey.</p>
@@ -192,7 +192,7 @@ const Homepage = () => {
         {/* SIXTH SECTION */}
       <section className='flex flex-col justify-center items-center gap-3 bg-purple-950 p-12 w-full'>
         <div>
-          <img src="/logo.svg" alt="logo" />
+          <img src="/zeepay-replica/logo.svg" alt="logo" />
         </div>
         <h1 className='text-4xl text-white font-bold'><span className='block'>Get Started with</span> <span className='block text-center'>Zeepay Today</span></h1>
         <p className='text-sm text-white'>Experience seamless, secure transactions at your fingertips. Sign up now <span className='block text-center'>and simplify your payments with just a few taps!</span></p>
@@ -204,7 +204,7 @@ const Homepage = () => {
         <article className='flex justify-between items-start w-full'>
           <div className='flex-2'>
             <div className='flex gap-1 mb-2.5'>
-              <img src="/logo.svg" alt="logo" width={25} /> Zeepay
+              <img src="/zeepay-replica/logo.svg" alt="logo" width={25} /> Zeepay
             </div>
             <p className='text-sm text-gray-500'>Find quick solutions and helpful tips for using <span className='block'> Zeepay. We’ve compiled answers to the most</span> <span className='block'> frequently asked questions right here.</span></p>
           </div>
