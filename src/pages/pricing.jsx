@@ -30,6 +30,12 @@ const Pricing = () => {
           background-color: #fff; /* fallback for visibility */
           border-radius: 50%;
         }
+        /* Center images in table cells */
+        table td img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
       `}</style>
       {/* Section 1 */}
       <section className='flex flex-col gap-12'>
@@ -38,7 +44,7 @@ const Pricing = () => {
           Flexible plans for everyone
         </h1>
         <p className='text-slate-500 font-inter font-normal text-[18px] leading-[26px] tracking-[-0.03em] text-center'>
-          Support small businesses with simple invoicing, powwerful 
+          Support small businesses with simple invoicing, powerful 
           <span className='block'>integrations and cash flow management tools.</span>
         </p>
         <div className='flex flex-col items-center gap-2 mt-6'>
