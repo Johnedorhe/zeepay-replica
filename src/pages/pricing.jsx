@@ -152,7 +152,7 @@ const Pricing = () => {
 
         <article>
           {/* Table */}
-          <table className='w-full mt-6 border-0'>
+          <table className='w-full mt-6 border-0 table-auto'>
             <thead>
               <tr className='bg-slate-200'> 
                 <th className='border-0 font-bold border-slate-300 p-4 text-left'><span className='text-nowrap'>Features included</span>  in the plans</th>
@@ -161,14 +161,14 @@ const Pricing = () => {
                 <th className='border-0 p-4 text-left text-nowrap bg-teal-100'><span className='block font-normal text-sm text-center text-slate-500'>Enterprise Plan</span><span className='block font-semibold text-center'>₹ 550 INR per month</span></th>
               </tr>
             </thead>
-            <tbody className='text-sm text-slate-500 '>
+            <tbody className='text-sm text-slate-500 [&>tr]:even:bg-teal-100 [&>tr]:odd:bg-transparent'>
               <tr>
                 <td className='border-0 p-4'>Analytics & Reporting</td>
                 <td className='border-0 p-4 text-center'>Standard Access</td>
                 <td className='border-0 p-4 text-center'>Standard Access</td>
                 <td className='border-0 p-4 text-center'>Advanced</td>
               </tr>
-              <tr className='bg-slate-50'>
+              <tr>
                 <td className='border-0 p-4'>API Integration</td>
                 <td className='border-0 p-4 text-center'><div><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></div></td>
                 <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
@@ -180,31 +180,31 @@ const Pricing = () => {
                 <td className='border-0 p-4 text-center'>Standard Access</td>
                 <td className='border-0 p-4 text-center'>Advanced</td>
               </tr>
-              <tr className='bg-slate-50'>
+              <tr>
                 <td className='border-0 p-4'>Customization Options</td>
                 <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
                 <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
                 <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
-              </tr>
-              <tr className='bg-slate-50'>
+              </tr >
+              <tr>
                 <td className='border-0 p-4'>Task Management</td>
                 <td className='border-0 p-4 text-center'>Basic Access</td>
                 <td className='border-0 p-4 text-center'>Standard Access</td>
                 <td className='border-0 p-4 text-center'>Advanced</td>
               </tr>
-              <tr className='bg-slate-50'>
+              <tr>
                 <td className='border-0 p-4'>Real-Time Inventory Tracking</td>
                 <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" style={{opacity: 0.3}} alt="bullet point" width={15} height={15} /></td>
                 <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
                 <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
               </tr>
-              <tr className='bg-slate-50'>
+              <tr>
                 <td className='border-0 p-4'>Collaboration Tools</td>
                 <td className='border-0 p-4 text-center'>Basic Access</td>
                 <td className='border-0 p-4 text-center'>Standard Access</td>
                 <td className='border-0 p-4 text-center'>Advanced</td>
               </tr>
-              <tr className='bg-slate-50'>
+              <tr>
                 <td className='border-0 p-4'>Document Management</td>
                 <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" style={{opacity: 0.3}} alt="bullet point" width={15} height={15} /></td>
                 <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
