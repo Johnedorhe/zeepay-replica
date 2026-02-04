@@ -9,19 +9,33 @@ function Contact() {
             <h1 className="text-3xl font-semibold">Contact Our Team</h1>
             <p className="text-teal-500">Get in touch with our team to explore how we can support your financial journey. We're here to answer your questions and provide personalized assistance!</p>
           </div>
+          
+
           <div className="space-y-5">
-            <div className="bg-white rounded-lg px-2 py-6 pl-10 shadow-sm">
+            <div className="bg-white rounded-lg px-2 py-6 shadow-sm flex gap-4 items-center">
+              <div><img src="phone.svg" alt="phone icon" width="24" height="24" /></div>
+              <div>
               <p className="text-sm text-teal-500">Give us a call</p>
               <p><a href="tel:+44 45 7200 8200" className="text-blue-500 font-semibold underline">+44 45 7200 8200</a></p>
+              </div>
             </div>
-            <div className="bg-white rounded-lg px-2 py-6 pl-10 shadow-sm">
+
+            <div className="bg-white rounded-lg px-2 py-6 shadow-sm flex gap-4 items-center">
+              <div><img src="email.svg" alt="email icon" width="24" height="24" /></div>
+              <div>
               <p className="text-sm text-teal-500">Send us an email</p>
               <p><a href="mailto:info@zeepay.com" className="text-blue-500 font-semibold underline">info@zeepay.com</a></p>
+              </div>
             </div>
-            <div className="bg-white rounded-lg px-2 py-6 pl-10 shadow-sm">
+
+            <div className="bg-white rounded-lg px-2 py-6 shadow-sm flex gap-4 items-center">
+              <div><img src="location.svg" alt="location icon" width="24" height="24" /></div>
+              <div>
               <p className="text-sm text-teal-500">Visit us</p>
               <p className="text-blue-500 font-semibold">L.K.Road, Vashi -410200</p>
               </div>
+              </div>
+
           </div>
         </article>
 
