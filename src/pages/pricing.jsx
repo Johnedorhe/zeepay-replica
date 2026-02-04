@@ -220,6 +220,79 @@ const Pricing = () => {
           </table>
         </article>
       </section>
+
+      <section className='mt-10'>
+        <article className='space-y-8'>
+          <h1 className='text-center font-semibold text-3xl'>Customer reviews about Zeepay</h1>
+          <div className='flex justify-evenly gap-3'>
+            <div className='[mask-image:linear-gradient(to_left,black,transparent)] p-4'>
+              <p>"Zeepay is my go-to app for all payments. Whether I’m paying bills or transferring money to friends, it’s super convenient and secure! The app has taken the hassle out of managing my finances, and I love the easy interface that keeps everything organized."</p>
+              <p><span className='font-semibold'>Priya K</span>, Small Business Owner</p>
+            </div>
+            <div className='bg-teal-100 p-4 rounded-lg'><p>"Zeepay makes online payments a breeze! It’s fast, reliable, and so easy to use. I handle all my transactions with just a few taps, whether I’m paying for groceries, services, or sending money to friends. Zeepay truly simplifies my day-to-day payments."</p>
+            <p><span className='font-semibold'>Priya K</span>, Small Business Owner</p>
+            </div>
+            <div className='[mask-image:linear-gradient(to_right,black,transparent)] p-4'><p>“With Zeepay, sending and receiving money has never been simpler. The app is intuitive, and transactions are instant, which means no more waiting! Whether I’m transferring funds to family or paying bills, Zeepay has made it quick and convenient every time.</p>
+            <p><span className='font-semibold'>Virat S</span>, Student</p>
+            </div>
+          </div>
+        </article>
+
+        <article className='bg-blue-950 text-white text-center p-10 mt-15 space-y-7'> 
+          <div><img src="logo.svg" alt="Zeepay Logo" width={64} height={64} className='mx-auto' /></div>
+          <h2 className='font-semibold text-5xl'>Get Started with <span className='block'> Zeepay Today</span></h2>
+          <p>Experience seamless, secure transactions at your fingertips. Sign up now and simplify your payments with just a few taps!</p>
+          <button className="bg-white text-blue-500 px-6 py-3 rounded-lg mt-4">Get Started now &gt;</button>
+        </article>
+      </section>  
+           <section className='w-full p-12'>
+        <article className='flex justify-between items-start w-full'>
+          <div className='flex-2'>
+            <div className='flex gap-1 mb-2.5'>
+              <img src="/zeepay-replica/logo.svg" alt="logo" width={25} /> Zeepay
+            </div>
+            <p className='text-sm text-gray-500'>Find quick solutions and helpful tips for using <span className='block'> Zeepay. We’ve compiled answers to the most</span> <span className='block'> frequently asked questions right here.</span></p>
+          </div>
+          <div className='flex-1'>
+            <p className='font-semibold mb-2.5'>About</p>
+            <div className='flex flex-col'>
+            <a href="#" className='text-sm text-gray-500'>Our story</a>
+            <a href="#" className='text-sm text-gray-500'>Careers</a>
+            <a href="#" className='text-sm text-gray-500'>Blog</a>
+            <a href="#" className='text-sm text-gray-500'>Contact Us</a>
+            </div>
+          </div>
+          <div className='flex-1'>
+            <p className='font-semibold mb-2.5'>Resources</p>
+            <div className='flex flex-col'>
+            <a href="#" className='text-sm text-gray-500'>Help center</a>
+            <a href="#" className='text-sm text-gray-500'>API Documentation</a>
+            <a href="#" className='text-sm text-gray-500'>Community</a>
+            <a href="#" className='text-sm text-gray-500'>Partner</a>
+            </div>
+          </div>
+          <div className='flex-1'>
+            <p className='font-semibold mb-2.5'>Products</p>
+            <div className='flex flex-col'>
+            <a href="#" className='text-sm text-gray-500'>For Personal</a>
+            <a href="#" className='text-sm text-gray-500'>For Business</a>
+            <a href="#" className='text-sm text-gray-500'>Personal solutions</a>
+            <a href="#" className='text-sm text-gray-500'>Imaginations</a>
+            </div>
+          </div>
+          <div className='flex-1'>
+            <p className='font-semibold mb-2.5'>Support</p>
+            <div className='flex flex-col'>
+            <a href="#" className='text-sm text-gray-500'>Customer support</a>
+            <a href="#" className='text-sm text-gray-500'>FAQ</a>
+            <a href="#" className='text-sm text-gray-500'>Report a problem</a>
+            <a href="#" className='text-sm text-gray-500'>Security & Policy</a>
+            </div>
+          </div>
+        </article>
+      </section>    
+
+      <footer className='text-center'>&copy; {new Date().getFullYear()} Zeepay</footer>
     </div>
   )
 }
