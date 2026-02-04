@@ -152,72 +152,63 @@ const Pricing = () => {
 
         <article>
           {/* Table */}
-          <table className='w-full mt-6 border-collapse'>
+          <table className='w-full mt-6 border-0'>
             <thead>
               <tr className='bg-slate-200'> 
-                <th className='border font-bold border-slate-300 p-4 text-left'>Features included in the plans</th>
-                <th className='border border-slate-300 p-4 text-left'>Starter</th>
-                <th className='border border-slate-300 p-4 text-left'>Pro</th>
-                <th className='border border-slate-300 p-4 text-left'>Enterprise</th>
-                <th className='border border-slate-300 p-4 text-left'>Enterprise</th>
+                <th className='border-0 font-bold border-slate-300 p-4 text-left'><span className='text-nowrap'>Features included</span>  in the plans</th>
+                <th className='border-0 p-4 text-left text-nowrap bg-teal-100'><span className='block font-normal text-sm text-center text-slate-500'>Starter Plan</span><span className='block font-semibold text-center'>₹ 10 INR per month</span> </th>
+                <th className='border-0 p-4 text-left text-nowrap bg-blue-950 text-white'><span className='block font-normal text-sm text-center'>Pro Plan</span><span className='block font-semibold text-center'>₹ 100 INR per month</span></th>
+                <th className='border-0 p-4 text-left text-nowrap bg-teal-100'><span className='block font-normal text-sm text-center text-slate-500'>Enterprise Plan</span><span className='block font-semibold text-center'>₹ 550 INR per month</span></th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className='text-sm text-slate-500 '>
               <tr>
-                <td className='border border-slate-300 p-4'>Real-Time Inventory Tracking</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border-0 p-4'>Analytics & Reporting</td>
+                <td className='border-0 p-4 text-center'>Standard Access</td>
+                <td className='border-0 p-4 text-center'>Standard Access</td>
+                <td className='border-0 p-4 text-center'>Advanced</td>
               </tr>
               <tr className='bg-slate-50'>
-                <td className='border border-slate-300 p-4'>Automated Purchase Orders</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border-0 p-4'>API Integration</td>
+                <td className='border-0 p-4 text-center'><div><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></div></td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
               </tr>
               <tr>
-                <td className='border border-slate-300 p-4'>Mobile Access</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border-0 p-4'>Onboarding & Training</td>
+                <td className='border-0 p-4 text-center'>Basic Access</td>
+                <td className='border-0 p-4 text-center'>Standard Access</td>
+                <td className='border-0 p-4 text-center'>Advanced</td>
               </tr>
               <tr className='bg-slate-50'>
-                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
-                <td className='border border-slate-300 p-4 text-center'>❌</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border-0 p-4'>Customization Options</td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
               </tr>
               <tr className='bg-slate-50'>
-                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
-                <td className='border border-slate-300 p-4 text-center'>❌</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border-0 p-4'>Task Management</td>
+                <td className='border-0 p-4 text-center'>Basic Access</td>
+                <td className='border-0 p-4 text-center'>Standard Access</td>
+                <td className='border-0 p-4 text-center'>Advanced</td>
               </tr>
               <tr className='bg-slate-50'>
-                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
-                <td className='border border-slate-300 p-4 text-center'>❌</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border-0 p-4'>Real-Time Inventory Tracking</td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" style={{opacity: 0.3}} alt="bullet point" width={15} height={15} /></td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
               </tr>
               <tr className='bg-slate-50'>
-                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
-                <td className='border border-slate-300 p-4 text-center'>❌</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border-0 p-4'>Collaboration Tools</td>
+                <td className='border-0 p-4 text-center'>Basic Access</td>
+                <td className='border-0 p-4 text-center'>Standard Access</td>
+                <td className='border-0 p-4 text-center'>Advanced</td>
               </tr>
               <tr className='bg-slate-50'>
-                <td className='border border-slate-300 p-4'>Dedicated Account Manager</td>
-                <td className='border border-slate-300 p-4 text-center'>❌</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
-                <td className='border border-slate-300 p-4 text-center'>✔️</td>
+                <td className='border-0 p-4'>Document Management</td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" style={{opacity: 0.3}} alt="bullet point" width={15} height={15} /></td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
+                <td className='border-0 p-4 text-center'><img src="bulletpoint.svg" alt="bullet point" width={15} height={15} /></td>
               </tr>
             </tbody>
           </table>
