@@ -11,7 +11,7 @@ import SignUp from "./pages/signup";
 
 const RootLayout = () => {
  const location = useLocation();
-const noNavFooterRoutes = ['/pricing', '/contact'];
+const noNavFooterRoutes = ['/pricing', '/contact', '/login', '/signup'];
 const showNavFooter = !noNavFooterRoutes.includes(location.pathname);
 
   return(

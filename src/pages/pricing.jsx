@@ -245,7 +245,7 @@ const Pricing = () => {
           <button className="bg-white text-blue-500 px-6 py-3 rounded-lg mt-4">Get Started now &gt;</button>
         </article>
       </section>  
-           <section className='w-full p-12'>
+      <section className='w-full p-12'>
         <article className='flex justify-between items-start w-full'>
           <div className='flex-2'>
             <div className='flex gap-1 mb-2.5'>
@@ -296,5 +296,5 @@ const Pricing = () => {
     </div>
   )
 }
-
+ 
 export default Pricing

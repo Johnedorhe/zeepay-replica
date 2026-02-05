@@ -13,7 +13,6 @@ function Nav() {
         <Link to="/">Home</Link>
         <Link to="/pricing">Pricing</Link>
         <Link to="/contact">Contact</Link>
-        <Link to="/profile">Pages</Link>
       </div>
 
       <div className="flex gap-1.5">
@@ -26,3 +25,4 @@ function Nav() {
 }
 
 export default Nav;
+
