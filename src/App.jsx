@@ -31,6 +31,7 @@ const RootLayout = () => {
 
   return (
     <div className="min-h-screen flex flex-col font-inter">
+      <RedirectHandler /> {/* ✅ Now inside Router context */}
       {showNavFooter && <Nav />}
       <main>
         <Outlet />
@@ -71,7 +72,7 @@ const router = createBrowserRouter(
         { path: "signup", element: <SignUp /> },
       ],
     },
-    { path: "*", element: <NotFound /> }, 
+    { path: "*", element: <NotFound /> },
   ],
   {
     basename: "/zeepay-replica",
@@ -79,12 +80,7 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  return (
-    <div>
-      <RedirectHandler />
-      <RouterProvider router={router} />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
