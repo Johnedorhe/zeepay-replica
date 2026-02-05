@@ -1,7 +1,6 @@
 import { createBrowserRouter, RouterProvider, Outlet, useLocation } from "react-router-dom";
 import HomePage from "./pages/homepage";
 import Contact from "./pages/contact";
-import Blog from "./pages/blog";
 import Pricing from "./pages/pricing";
 import Nav from "./pages/nav";
 import Footer from "./pages/footer";
