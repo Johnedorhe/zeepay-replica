@@ -72,7 +72,7 @@ const router = createBrowserRouter(
         { path: "signup", element: <SignUp /> },
       ],
     },
-    { path: "*", element: <NotFound /> }, // global 404
+    { path: "*", element: <NotFound /> }, 
   ],
   {
     basename: "/zeepay-replica",
